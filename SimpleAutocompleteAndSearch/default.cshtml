@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nir Simple Autocomplete and Search</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark mb-3">
+        <div class="container">
+            <img src="https://fileserver.thejobnetwork.com/content/public/Affiliates/3/images/blog_header/images/logo.png" />
+        </div>
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search Jobs</h1>
+            <p class="lead"></p>
+            <div>
+                <input type="text" id="searchJob" class="col-9 col-sm-8" placeholder="Enter a Job Title or Keyword">
+                <input type="button" id="searchJobBtn" class="btn col-1 col-sm-4" value="&#128269;" />
+            </div>
+        </div>
+        <br>
+        <div id="searchResults"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light">
+        Nir Nimova &copy;
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="~/scripts/jobAPI.js"></script>
+    <script src="~/scripts/ui.js"></script>
+    <script src="~/scripts/app.js"></script>
+</body>
+</html>
