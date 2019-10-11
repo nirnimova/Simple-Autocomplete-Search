@@ -11,23 +11,20 @@ namespace SimpleAutocompleteAndSearch.Controllers
 {
     public class JobsController : ApiController
     {
-        //IJobsRepository _repo;
+        IJobsRepository _repo;
 
-        //public JobsController(IJobsRepository repo)
-        //{
-        //    _repo = repo;
-        //}
+        public JobsController(IJobsRepository repo)
+        {
+            _repo = repo;
+        }
 
         [System.Web.Http.HttpGet]
         public JsonResult SearchJobsTitle(string str, int count)
         {
             using (JobsContext db = new JobsContext())
             {
-                IJobsRepository _repo = new JobsRepository(db);
-
                 return new JsonResult()
                 {
-
                     Data = _repo.SearchJobsTitle(str, count).ToList(),
                     JsonRequestBehavior = JsonRequestBehavior.AllowGet,
                 };
@@ -39,8 +36,6 @@ namespace SimpleAutocompleteAndSearch.Controllers
         {
             using (JobsContext db = new JobsContext())
             {
-                IJobsRepository _repo = new JobsRepository(db);
-                
                 return new JsonResult()
                 {
                     Data = _repo.SearchJobsByTitle(title, count).ToList(),

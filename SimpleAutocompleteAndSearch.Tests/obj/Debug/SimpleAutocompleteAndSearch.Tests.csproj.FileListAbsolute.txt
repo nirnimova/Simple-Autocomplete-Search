@@ -36,3 +36,16 @@ C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSe
 C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\obj\Debug\SimpleAutocompleteAndSearch.Tests.csproj.CopyComplete
 C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\obj\Debug\SimpleAutocompleteAndSearch.Tests.dll
 C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\obj\Debug\SimpleAutocompleteAndSearch.Tests.pdb
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\WebActivatorEx.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\WebApiContrib.IoC.Ninject.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.xml
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Nimova\source\repos\SimpleAutocompleteAndSearch\SimpleAutocompleteAndSearch.Tests\bin\Debug\System.Web.Helpers.xml
